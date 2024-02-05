@@ -1,6 +1,6 @@
 <template>
   <div class="p-8 pb-0 font">
-    <h1 class="text-4xl drop-shadow-lg font-bold mb-4">Random Recipes</h1>
+    <h1 class="text-2xl drop-shadow-lg font-bold mb-4">Random Recipes</h1>
   </div>
   <Meals :meals="meals" />
 </template>
