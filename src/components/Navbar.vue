@@ -9,19 +9,19 @@
     <div class="flex items-center gap-1">
       <router-link
         :to="{ name: 'byName' }"
-        class="inline-flex font items-center text-sm px-1 drop-shadow-lg h-full transition-colors hover:bg-gray-500 hover:text-white"
+        class="inline-flex font items-center text-xs px-1 drop-shadow-lg h-full transition-colors hover:bg-gray-500 hover:text-white"
       >
         Search Recipes
       </router-link>
       <router-link
         :to="{ name: 'byLetter' }"
-        class="inline-flex font items-center text-sm px-1 drop-shadow-lg h-full transition-colors hover:bg-gray-500 hover:text-white"
+        class="inline-flex font items-center text-xs px-1 drop-shadow-lg h-full transition-colors hover:bg-gray-500 hover:text-white"
       >
         Recipes By Letter
       </router-link>
       <router-link
         :to="{ name: 'ingredients' }"
-        class="inline-flex font items-center text-sm px-1 drop-shadow-lg h-full transition-colors hover:bg-gray-500 hover:text-white"
+        class="inline-flex font items-center text-xs px-1 drop-shadow-lg h-full transition-colors hover:bg-gray-500 hover:text-white"
       >
         Recipes By Ingredients
       </router-link>
