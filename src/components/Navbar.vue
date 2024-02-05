@@ -2,7 +2,7 @@
   <header class="background shadow-lg h-16 flex justify-between items-stretch">
     <router-link
       :to="{ name: 'home' }"
-      class="font inline-flex drop-shadow-lg items-center h-full px-5 font-black text-md"
+      class="font inline-flex drop-shadow-lg items-center h-full px-2 font-black text-md"
     >
       <img src="/recipefier.svg" width="25" height="25" /> Recipefier
     </router-link>
