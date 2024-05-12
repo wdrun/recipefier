@@ -25,6 +25,12 @@
       >
         Recipes By Ingredients
       </router-link>
+      <router-link
+        :to="{ name: 'login' }"
+        class="inline-flex font items-center text-xs px-1 drop-shadow-lg h-full transition-colors hover:bg-gray-500 hover:text-white"
+      >
+        Log-out
+      </router-link>
     </div>
   </header>
 </template>
