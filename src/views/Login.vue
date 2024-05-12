@@ -10,7 +10,7 @@ function login() {
             .removeClass("block")
             .addClass("hidden");
 
-    if(accounts == "null") {
+    if(accounts == null) {
         $("#error-message")
             .removeClass("hidden")
             .addClass("block");
