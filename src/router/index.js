@@ -8,15 +8,21 @@ import MealDetails from '../views/MealDetails.vue'
 import Ingredients from '../views/Ingredients.vue'
 import Login from '../views/Login.vue';
 import Signup from '../views/Signup.vue';
+import SplashScreen from '../views/SplashScreen.vue';
 
 const routes = [
   {
     path: '/',
+    name: 'splash_screen',
+    component: SplashScreen
+  },
+  {
+    path: '/login',
     name: 'login',
     component: Login
   },
   {
-    path: '/',
+    path: '/signup',
     name: 'signup',
     component: Signup
   },
