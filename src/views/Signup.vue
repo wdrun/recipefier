@@ -16,7 +16,11 @@ function signUp() {
     $("#error-message")
         .removeClass("block")
         .addClass("hidden");
-
+    if(password.length < 8 ) {
+        alert("Invalid password length, must be at least 8 characters.");
+        return;
+    }
+    
     if($("#otp").val() != otp) {
         $("#error-message")
             .removeClass("hidden")
