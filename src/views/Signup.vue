@@ -16,10 +16,6 @@ function signUp() {
     $("#error-message")
         .removeClass("block")
         .addClass("hidden");
-    if(password.length < 8 ) {
-        alert("Invalid password length, must be at least 8 characters.");
-        return;
-    }
     
     if($("#otp").val() != otp) {
         $("#error-message")
@@ -31,6 +27,11 @@ function signUp() {
     let username = $("#username").val(),
         password = $("#password").val();
 
+    if(password.length < 8 ) {
+        alert("Invalid password length, must be at least 8 characters.");
+        return;
+    }
+  
     parsed.push([username, btoa(password)]);
     localStorage.setItem("accounts", JSON.stringify(parsed));
     window.location.href = "/home";
